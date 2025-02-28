@@ -27,7 +27,6 @@ let package = Package(
             publicHeadersPath: "include",
             cSettings: [
                 .define("HAVE_CONFIG_H"),
-                .unsafeFlags(["-w", "-Xanalyzer", "-analyzer-disable-all-checks"])
             ]
         ),
         
